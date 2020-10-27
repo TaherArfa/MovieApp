@@ -1,5 +1,10 @@
+
+
 .App {
   text-align: center;
+  background-color: #282c34;
+  width: 100%;
+  height: 100%;
 }
 
 .App-logo {
@@ -35,4 +40,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+p.text-muted.descripCls.card-text {
+  font-size: x-small;
+}
+.card-body {
+  height: 10rem;
+}
+img.card-img-top {
+  height: 16rem;
+}
+.card-body {
+  padding: 0.5rem !important;
+}
+.wrapper {
+  display: flex;
+  margin-left: 7%;
+  margin-top: 2%;
+  flex-wrap: wrap;
+
+  /* display: flex;
+  margin-left: 4%;
+  margin-top: 2%;
+  flex-wrap: wrap; */
+}
+button.btn.btn-outline-info {
+  margin-right: 12px;
+}
+input.mr-sm-2.TextFiled.form-control {
+  margin-top: 15px;
+}
+
+.MuiBox-root-2 {
+  border-color: transparent;
+  margin-bottom: 0px !important;
+  margin-right: 15px;
 }
